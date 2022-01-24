@@ -28,9 +28,9 @@ function initFunction(){
     //icono de vistas
     let view=document.querySelector('.views');
     if(currentView==='listView'){
-        view.setAttribute('src','/icons/th-gallery-solid.svg')
+        view.setAttribute('src','icons/th-gallery-solid.svg')
     }else if(currentView==='galleryView'){
-        view.setAttribute('src','/icons/th-list-solid.svg')
+        view.setAttribute('src','icons/th-list-solid.svg')
     }
 
 }
