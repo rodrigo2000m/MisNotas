@@ -20,7 +20,7 @@ function initFunction(){
     }
 
     if(categoryView===null){
-        categoryView='';
+        categoryView='allNotes';
         localStorage.setItem('categoryView',JSON.stringify(categoryView));
     }
 
