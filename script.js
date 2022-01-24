@@ -281,14 +281,14 @@ function changeView(){
     let currentView=JSON.parse(localStorage.getItem('currentView'))
     
     if(currentView==='listView'){
-        view.setAttribute('src','/icons/th-list-solid.svg');
+        view.setAttribute('src','icons/th-list-solid.svg');
 
         showNotes('col-3')
 
         currentView="galleryView"
         localStorage.setItem('currentView', JSON.stringify(currentView))
     }else if(currentView==='galleryView'){
-        view.setAttribute('src','/icons/th-gallery-solid.svg')
+        view.setAttribute('src','icons/th-gallery-solid.svg')
 
         showNotes('col-12')
 
